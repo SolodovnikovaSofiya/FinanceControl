@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="Accounts"
+        android:textSize="40dp" />
+    <!-- RecyclerView для отображения списка аккаунтов -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="551dp"
+        android:textSize="20dp"/>
+    <!-- Кнопка для добавления нового аккаунта -->
+    <Button
+        android:id="@+id/btn_add_account"
+        android:layout_width="201dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:text="Add Account" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="264dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/image_finance" />
+
+    <Button
+        android:id="@+id/btn_add_transaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Transaction" />
+
+    <Button
+        android:id="@+id/btn_view_budgets"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:text="View Budgets" />
+
+    <Button
+        android:id="@+id/btn_view_accounts"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="View Account" />
+
+    <Button
+        android:id="@+id/btn_view_report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Report" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+</LinearLayout>

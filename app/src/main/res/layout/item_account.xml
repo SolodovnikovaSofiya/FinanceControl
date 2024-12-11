@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_margin="3dp"
+    android:background="@drawable/account_item_background">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center_vertical" />
+
+    <!-- TextView для баланса -->
+    <TextView
+        android:id="@+id/tv_balance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Balance"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center_vertical" />
+
+    <!-- TextView для валюты -->
+    <TextView
+        android:id="@+id/tv_currency"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Currency"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center_vertical" />
+
+    <!-- Кнопка удаления -->
+    <Button
+        android:id="@+id/btn_delete_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginStart="8dp" />
+
+</LinearLayout>

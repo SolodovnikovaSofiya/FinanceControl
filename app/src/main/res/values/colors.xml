@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <array name="category_colors">
+        <item>#FF5733</item> <!-- Food -->
+        <item>#33FF57</item> <!-- Transport -->
+        <item>#3357FF</item> <!-- Entertainment -->
+        <item>#FF33A1</item> <!-- Utilities -->
+        <item>#A133FF</item> <!-- Health -->
+        <item>#33FFA1</item> <!-- Education -->
+        <item>#FFA133</item> <!-- Shopping -->
+        <item>#A1FF33</item> <!-- Travel -->
+        <item>#33A1FF</item> <!-- Gifts -->
+        <item>#FF3333</item> <!-- Other -->
+    </array>
+</resources>
